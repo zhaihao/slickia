@@ -31,7 +31,7 @@ object Dependencies extends AutoPlugin {
     lazy val HIKARI          = "com.zaxxer"              % "HikariCP"                      % "5.0.1"
     lazy val POSTGRES        = "org.postgresql"          % "postgresql"                    % "42.7.4"
     lazy val MYSQL           = "com.mysql"                   % "mysql-connector-j"          % "9.1.0"
-    lazy val H2              = "com.h2database"          % "h2"                            % "2.3.232" % Test
+    lazy val H2              = "com.h2database"          % "h2"                            % "2.4.240" % Test
 
     lazy val SLICK = Seq(
       "com.typesafe.slick"  %% "slick"              % "3.4.1",
